@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (C),2016-2016. 华住酒店管理有限公司
+  ~ FileName: applicationContext.xml
+  ~ Author:   admin
+  ~ Date:     2016-03-10 21:12:43
+  ~ Description: //模块目的、功能描述
+  ~ History: //修改记录 修改人姓名 修改时间 版本号 描述 需求来源
+  ~ <admin><2016-03-10 21:12:43><version><desc><source>
+  -->
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"
+       default-lazy-init="true">
+
+    <!-- Activates scanning of @Autowired -->
+    <context:annotation-config/>
+
+    <!-- Activates scanning of @Repository and @Service -->
+    <!--<context:component-scan base-package="com.huazhu.h"/>-->
+
+    <!-- Add new DAOs here -->
+
+    <!-- Add new Managers here -->
+
+    <!-- Configure and Alternative PasswordTokenManager -->
+	<!-- <bean id="passwordTokenManager" class="com.huazhu.service.impl.PersistentPasswordTokenManagerImpl" autowire="default" /> -->
+</beans>

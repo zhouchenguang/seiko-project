@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (C),2016-2016. 闂傚倷绀侀幉锟犮�濠婂懓濮抽柤娴嬫櫇缁�﹪鏌涢妷顔煎闁绘搫鎷烽弻鐔兼倻濡櫣浠奸梺鍝勬椤ㄧ喓妲愰幒妤佸亼闁告侗鍨抽敍鐔兼⒑鐠団�鏋涢柨鏇ㄤ簻椤曪綁宕归銏㈢獮闂佸綊鍋婇崣搴ㄦ晸娴犲鈷戠紒瀣缁傚鏌涢幘瀵告噧妞ゆ洏鍎甸弫鎾绘晸閿燂拷
+  ~ FileName: applicationContext.xml
+  ~ Author:   HUQIANBO
+  ~ Date:     2016-03-21 11:23:39
+  ~ Description: //濠电姷顣藉Σ鍛村垂椤忓牊鏅搁柦妯侯檳閻掍粙鏌ㄩ悢鍝勑ｉ柛搴″閵囧嫰寮崒姘闂佷紮缍佹禍鍫曞蓟閺囥垹骞㈤柡鍥╁濡茬粯绻濆▓鍨灍闁烩晩鍨堕獮濠偽旈崨顔兼疅闂侀潧顦归崕鎵閻斿吋鐓涘璺烘濞呮棃鏌熼崙銈嗗
+  ~ History: //婵犵數鍎戠徊钘壝归崒鐐茬獥婵°倕鎳庨弸渚�煠濞村娅嗗┑顖氥偢閺屸剝寰勬惔銏�缂備礁顧岄幏宄扳攽閻戝洨鍒版繛鏉戝�瀹曟澘螖閸涱厽鐎梺绋跨箺閸嬫劙鈥旈幋锔界厱婵犻潧妫楅鎾煟鎼粹剝鍋ラ柡灞剧☉椤鎮欓锟戒紦婵犵數鍎戠徊钘壝归崒鐐茬獥婵°倕鎳庨弸浣糕攽閸屾粠鐒剧紒顐㈢Ч閺屾盯顢曢敐鍡欘槾闂佹寧鍐婚幏鐑芥⒒娴ｈ櫣甯涙い銊︾矒閹勭節閸岋箒锟芥繛鏉戝悑濞兼瑩鎯屽Δ鍛叆闁绘柨澧庨惌娆愵毤閻愬瓨宕勭紒鐘崇☉椤顢楅崒姘兼瀳
+  ~ <HUQIANBO>  <2016-03-21 11:23:39> <version>   <desc>
+  ~
+  -->
+
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"
+       default-lazy-init="true">
+
+    <import resource="classpath:applicationContext-resources.xml"/>
+    <import resource="classpath:applicationContext-dao.xml"/>
+    <import resource="classpath:applicationContext-manager.xml"/>
+    <import resource="classpath:applicationContext-service.xml"/>
+
+    <!-- Activates scanning of @Autowired -->
+    <context:annotation-config/>
+
+    <!-- Activates scanning of @Repository and @Service -->
+    <!--<context:component-scan base-package="com.huazhu.h"/>-->
+
+    <!-- Add new DAOs here -->
+
+    <!-- Add new Managers here -->
+
+    <!-- Configure and Alternative PasswordTokenManager -->
+	<!-- <bean id="passwordTokenManager" class="com.huazhu.service.impl.PersistentPasswordTokenManagerImpl" autowire="default" /> -->
+</beans>
