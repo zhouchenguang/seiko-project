@@ -11,7 +11,7 @@
 package com.seiko.dao;
 
 import com.seiko.base.dao.GenericDao;
-import com.seiko.model.OpUser;
+import com.seiko.model.user.OpUser;
 import org.springframework.stereotype.Repository;
 
 

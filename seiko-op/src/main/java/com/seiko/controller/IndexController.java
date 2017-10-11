@@ -10,9 +10,6 @@
 
 package com.seiko.controller;
 
-import com.seiko.base.constants.Constants;
-import com.seiko.base.model.ReturnObject;
-import com.seiko.model.OpUser;
 import com.seiko.service.impl.OpUserService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

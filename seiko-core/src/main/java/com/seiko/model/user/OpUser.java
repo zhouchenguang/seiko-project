@@ -1,4 +1,4 @@
-package com.seiko.model;
+package com.seiko.model.user;
 
 import com.seiko.base.model.DynamicField;
 import org.springframework.security.core.GrantedAuthority;

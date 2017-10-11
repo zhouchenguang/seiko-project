@@ -12,7 +12,7 @@ package com.seiko.manager;
 
 import com.seiko.base.service.GenericManager;
 import com.seiko.dao.OpUserDao;
-import com.seiko.model.OpUser;
+import com.seiko.model.user.OpUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.encoding.PasswordEncoder;
 import org.springframework.stereotype.Service;

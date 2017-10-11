@@ -15,7 +15,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.seiko.base.constants.Constants;
 import com.seiko.base.model.ReturnObject;
 import com.seiko.controller.BaseController;
-import com.seiko.model.OpUser;
+import com.seiko.model.user.OpUser;
 import com.seiko.service.impl.OpUserService;
 import com.seiko.service.qo.UserQO;
 import com.seiko.utils.JsonUtil;

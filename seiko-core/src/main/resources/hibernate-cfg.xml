@@ -16,8 +16,17 @@
 
 <hibernate-configuration>
     <session-factory>
+        <property name="connection.url">jdbc:mysql://localhost:3306/seiko</property>
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
 
-        <mapping class="com.seiko.model.OpUser"/>
-        <!-- No Table  -->
+        <!--common -->
+        <mapping class="com.seiko.model.common.Menu"/>
+
+        <!--user -->
+        <mapping class="com.seiko.model.user.OpUser"/>
+        <mapping class="com.seiko.model.user.OpRole"/>
+        <mapping class="com.seiko.model.user.OpUserRole"/>
+        <mapping class="com.seiko.model.user.OpUser"/>
+
     </session-factory>
 </hibernate-configuration>

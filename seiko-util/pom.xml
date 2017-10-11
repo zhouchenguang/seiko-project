@@ -13,33 +13,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.apache.axis</groupId>
-            <artifactId>axis</artifactId>
-            <version>1.4</version>
-            <!--  	 <exclusions>
-                    <exclusion>
-                      <groupId>axis</groupId>
-                      <artifactId>axis-wsdl4j</artifactId>
-                    </exclusion>
-                  </exclusions>
-                  -->
-        </dependency>
-        <dependency>
-            <groupId>org.glassfish</groupId>
-            <artifactId>javax.xml.rpc</artifactId>
-            <version>3.2-b06</version>
-        </dependency>
-        <dependency>
-            <groupId>jmagick</groupId>
-            <artifactId>jmagick</artifactId>
-            <version>6.6.9</version>
-        </dependency>
-        <dependency>
-            <groupId>javax.mail</groupId>
-            <artifactId>mail</artifactId>
-            <version>1.4.3</version>
-        </dependency>
-        <dependency>
             <groupId>velocity</groupId>
             <artifactId>velocity</artifactId>
             <version>${velocity.version}</version>
