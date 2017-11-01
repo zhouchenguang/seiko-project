@@ -253,9 +253,7 @@
         <jpa.version>2.0-cr-1</jpa.version>
         <validation.version>1.1.0.Final</validation.version>
         <!-- Properties calculated by AppFuse when running full-source plugin -->
-        <jstl.version>1.2</jstl.version>
         <log4j.version>1.2.17</log4j.version>
-        <sitemesh.version>2.4.2</sitemesh.version>
         <slf4j.version>1.6.1</slf4j.version>
         <commons.dbcp.version>1.2.2</commons.dbcp.version>
     </properties>
